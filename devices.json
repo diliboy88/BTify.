@@ -1,0 +1,282 @@
+[
+  {
+    "PhysAddress": "4C:17:44:87:5E:AE",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.194",
+    "name": "4C:17:44:87:5E:AE",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "EC:8E:B5:5E:DE:92",
+    "UserHostName": "HP5EDE92",
+    "IPAddress": "192.168.1.247",
+    "name": "HP5EDE92",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "E0:09:BF:1B:5A:76",
+    "UserHostName": "IPCAM",
+    "IPAddress": "192.168.1.95",
+    "name": "IPCAM",
+    "Active": true,
+    "ConnectionType": "Unknown",
+    "ParentPhysAddress": "Unknown",
+    "ParentName": "Unknown"
+  },
+  {
+    "PhysAddress": "3C:33:00:18:98:B4",
+    "UserHostName": "IPCAM",
+    "IPAddress": "192.168.1.217",
+    "name": "IPCAM",
+    "Active": true,
+    "ConnectionType": "Unknown",
+    "ParentPhysAddress": "Unknown",
+    "ParentName": "Unknown"
+  },
+  {
+    "PhysAddress": "2C:54:91:E7:4E:B1",
+    "UserHostName": "XboxOne",
+    "IPAddress": "192.168.1.161",
+    "name": "XboxOne",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "D8:EB:46:8A:86:0B",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.188",
+    "name": "D8:EB:46:8A:86:0B",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "E4:5F:01:6F:22:D8",
+    "UserHostName": "homeassistant",
+    "IPAddress": "192.168.1.1",
+    "name": "Home Assistant Hub",
+    "Active": true,
+    "ConnectionType": "Ether",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "C8:2B:96:40:9C:EB",
+    "UserHostName": "ESP_409CEB",
+    "IPAddress": "192.168.1.244",
+    "name": "ESP_409CEB",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "74:84:69:21:A1:56",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.240",
+    "name": "74:84:69:21:A1:56",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "D0:88:0C:9C:B8:98",
+    "UserHostName": "Dylan-Air",
+    "IPAddress": "192.168.1.66",
+    "name": "Dylan-CoreasAir",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "B2:3A:67:2E:AC:D2",
+    "UserHostName": "iPhone",
+    "IPAddress": "192.168.1.185",
+    "name": "iPhone",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "9C:9C:1F:8A:51:CD",
+    "UserHostName": "ESP_8A51CD",
+    "IPAddress": "192.168.1.249",
+    "name": "ESP_8A51CD",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "9C:9C:1F:8A:4A:F0",
+    "UserHostName": "ESP_8A4AF0",
+    "IPAddress": "192.168.1.130",
+    "name": "ESP_8A4AF0",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "9C:9C:1F:89:E7:51",
+    "UserHostName": "ESP_89E751",
+    "IPAddress": "192.168.1.138",
+    "name": "ESP_89E751",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "D8:EB:46:6E:34:FF",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.231",
+    "name": "D8:EB:46:6E:34:FF",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "90:48:6C:1E:E6:0A",
+    "UserHostName": "Ring-90486C1EE60A",
+    "IPAddress": "192.168.1.93",
+    "name": "Living Room Camera - Ring",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "5C:47:5E:6A:39:03",
+    "UserHostName": "RingDoorbell-03",
+    "IPAddress": "192.168.1.84",
+    "name": "Ring Doorbell",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "06:4C:1A:4B:C5:DE",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.217",
+    "name": "06:4C:1A:4B:C5:DE",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "C0:8A:60:9B:BD:62",
+    "UserHostName": "lwip",
+    "IPAddress": "192.168.1.227",
+    "name": "lwip",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "C0:8A:60:9B:EA:16",
+    "UserHostName": "lwip",
+    "IPAddress": "192.168.1.76",
+    "name": "lwip",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "3C:84:27:05:59:C0",
+    "UserHostName": "esp32-s3-box-3-0559c0",
+    "IPAddress": "192.168.1.99",
+    "name": "esp32-s3-box-3-0559c0",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "E4:5F:01:FE:D0:87",
+    "UserHostName": "livingnas",
+    "IPAddress": "192.168.1.253",
+    "name": "LivingRoom",
+    "Active": true,
+    "ConnectionType": "Ether",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "E2:89:9E:E9:56:23",
+    "UserHostName": "iPhone",
+    "IPAddress": "192.168.1.69",
+    "name": "iPhone",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "7E:B4:4D:54:16:DC",
+    "UserHostName": "iPhone",
+    "IPAddress": "192.168.1.250",
+    "name": "iPhone",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "DC:06:75:D4:7B:08",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.204",
+    "name": "DC:06:75:D4:7B:08",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "3C:C5:DD:78:EC:4C",
+    "UserHostName": "BedroomTV",
+    "IPAddress": "192.168.1.77",
+    "name": "BedroomTV",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "70:D8:23:FE:5B:37",
+    "UserHostName": "W5CD31170G2",
+    "IPAddress": "192.168.1.131",
+    "name": "W5CD31170G2",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "66:08:F5:F6:D6:E4",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.129",
+    "name": "66:08:F5:F6:D6:E4",
+    "Active": true,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  }
+]

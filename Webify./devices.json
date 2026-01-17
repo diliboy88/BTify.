@@ -1,0 +1,12 @@
+[
+  {
+    "PhysAddress": "4C:17:44:87:5E:AE",
+    "UserHostName": "HJHJKHKJHKJGKHJ,H",
+    "IPAddress": "192.168.1.194",
+    "name": "4C:17:44:87:5E:AE",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "F0:86:20:4B:2F:0A",
+    "ParentName": "Smart Hub 2"
+  }
+]
