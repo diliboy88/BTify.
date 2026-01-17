@@ -2,7 +2,7 @@
 dragElement(document.getElementById("welcome"));
 dragElement(document.getElementById("devices"));
 dragElement(document.getElementById("changelog"));
-
+dragElement(document.getElementById("iframe"));
 function dragElement(element) {
   var initialX = 0;
   var initialY = 0;
@@ -72,13 +72,15 @@ function addWindowTapHandling(element) {
 addWindowTapHandling(document.querySelector("#welcome"));
 addWindowTapHandling(document.querySelector("#devices"));
 addWindowTapHandling(document.querySelector("#changelog"));
-
+addWindowTapHandling(document.querySelector("#iframe"));
 
 function handleIconTap(element) {
   if (element.id === "devicesIcon") {
     openWindow(document.querySelector("#devices"));
   } else if (element.id === "changelogicon") {
     openWindow(document.querySelector("#changelog"));
+  } else if (element.id === "iframeicon") {
+    openWindow(document.querySelector("#iframe"));
   }
 }
 
@@ -91,6 +93,9 @@ var devicesIcon = document.querySelector("#devicesIcon");
 var changelogScreen = document.querySelector("#changelog");
 var changelogScreenClose = document.querySelector("#changelogclose");
 var changelogIcon = document.querySelector("#changelogicon");
+var iframeScreen = document.querySelector("#iframe");
+var iframeScreenClose = document.querySelector("#iframeclose");
+var iframeIcon = document.querySelector("#iframeicon");
 
 changelogScreenClose.addEventListener("click", function() {
   closeWindow(changelogScreen);
@@ -116,7 +121,14 @@ devicesIcon.addEventListener("click", function() {
   handleIconTap(devicesIcon);
 });
 
+iframeScreenClose.addEventListener("click", function() {
+  closeWindow(iframeScreen);
+});
 
+iframeIcon.addEventListener("click", function() {
+  handleIconTap(iframeIcon);
+});
+  
 
 fetch('../devices.json')
   .then(response => response.json())
@@ -155,3 +167,4 @@ document.addEventListener("DOMContentLoaded", function() {
     </ul>
   `;
 });
+
