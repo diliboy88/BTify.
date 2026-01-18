@@ -1,10 +1,14 @@
 
+// Main Apps
 dragElement(document.getElementById("welcome"));
 dragElement(document.getElementById("devices"));
+// Custom Apps
 dragElement(document.getElementById("changelog"));
 dragElement(document.getElementById("iframe"));
 dragElement(document.getElementById("browser"));
 dragElement(document.getElementById("selfhosted"));
+
+// Dragging Functionality
 function dragElement(element) {
   var initialX = 0;
   var initialY = 0;
@@ -71,12 +75,15 @@ function addWindowTapHandling(element) {
   element.addEventListener("mousedown", () => handleWindowTap(element));
 }
 
+// Add tap handling to all windows
 addWindowTapHandling(document.querySelector("#welcome"));
 addWindowTapHandling(document.querySelector("#devices"));
 addWindowTapHandling(document.querySelector("#changelog"));
 addWindowTapHandling(document.querySelector("#iframe"));
 addWindowTapHandling(document.querySelector("#browser"));
+addWindowTapHandling(document.querySelector("#selfhosted"));
 
+// Allows opening the app 
 function handleIconTap(element) {
   if (element.id === "devicesIcon") {
     openWindow(document.querySelector("#devices"));
@@ -91,6 +98,7 @@ function handleIconTap(element) {
   }
 }
 
+// omg so many variables
 var welcomeScreen = document.querySelector("#welcome");
 var welcomeScreenClose = document.querySelector("#welcomeclose");
 var welcomeScreenOpen = document.querySelector("#welcomeopen");
@@ -112,18 +120,10 @@ var selfhostedIcon = document.querySelector("#selfhosticon");
 
 
 
-changelogScreenClose.addEventListener("click", function() {
-  closeWindow(changelogScreen);
-});
-
-changelogIcon.addEventListener("click", function() {
-  handleIconTap(changelogIcon);
-});
-
+// Event Listeners for buttons
 welcomeScreenClose.addEventListener("click", function() {
   closeWindow(welcomeScreen);
 });
-
 welcomeScreenOpen.addEventListener("click", function() {
   openWindow(welcomeScreen);
 });
@@ -131,15 +131,20 @@ welcomeScreenOpen.addEventListener("click", function() {
 devicesScreenClose.addEventListener("click", function() {
   closeWindow(devicesScreen);
 });
-
 devicesIcon.addEventListener("click", function() {
   handleIconTap(devicesIcon);
+});
+
+changelogScreenClose.addEventListener("click", function() {
+  closeWindow(changelogScreen);
+});
+changelogIcon.addEventListener("click", function() {
+  handleIconTap(changelogIcon);
 });
 
 iframeScreenClose.addEventListener("click", function() {
   closeWindow(iframeScreen);
 });
-
 iframeIcon.addEventListener("click", function() {
   handleIconTap(iframeIcon);
 });
@@ -159,6 +164,13 @@ selfhostedIcon.addEventListener("click", function() {
 });
   
 
+
+
+
+
+
+
+// The real magic when it comes to loading more JS content
 fetch('../devices.json')
   .then(response => response.json())
   .then(data => {
