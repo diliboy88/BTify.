@@ -3,6 +3,8 @@ dragElement(document.getElementById("welcome"));
 dragElement(document.getElementById("devices"));
 dragElement(document.getElementById("changelog"));
 dragElement(document.getElementById("iframe"));
+dragElement(document.getElementById("browser"));
+dragElement(document.getElementById("selfhosted"));
 function dragElement(element) {
   var initialX = 0;
   var initialY = 0;
@@ -73,6 +75,7 @@ addWindowTapHandling(document.querySelector("#welcome"));
 addWindowTapHandling(document.querySelector("#devices"));
 addWindowTapHandling(document.querySelector("#changelog"));
 addWindowTapHandling(document.querySelector("#iframe"));
+addWindowTapHandling(document.querySelector("#browser"));
 
 function handleIconTap(element) {
   if (element.id === "devicesIcon") {
@@ -81,6 +84,10 @@ function handleIconTap(element) {
     openWindow(document.querySelector("#changelog"));
   } else if (element.id === "iframeicon") {
     openWindow(document.querySelector("#iframe"));
+  } else if (element.id === "browsericon") {
+    openWindow(document.querySelector("#browser"));
+  } else if (element.id === "selfhosticon") {
+    openWindow(document.querySelector("#selfhosted"));
   }
 }
 
@@ -96,6 +103,14 @@ var changelogIcon = document.querySelector("#changelogicon");
 var iframeScreen = document.querySelector("#iframe");
 var iframeScreenClose = document.querySelector("#iframeclose");
 var iframeIcon = document.querySelector("#iframeicon");
+var browserScreen = document.querySelector("#browser");
+var browserScreenClose = document.querySelector("#browserclose");
+var browserIcon = document.querySelector("#browsericon");
+var selfhostedScreen = document.querySelector("#selfhosted");
+var selfhostedScreenClose = document.querySelector("#selfhostedclose");
+var selfhostedIcon = document.querySelector("#selfhosticon");
+
+
 
 changelogScreenClose.addEventListener("click", function() {
   closeWindow(changelogScreen);
@@ -127,6 +142,20 @@ iframeScreenClose.addEventListener("click", function() {
 
 iframeIcon.addEventListener("click", function() {
   handleIconTap(iframeIcon);
+});
+
+browserScreenClose.addEventListener("click", function() {
+  closeWindow(browserScreen);
+});
+browserIcon.addEventListener("click", function() {
+  handleIconTap(browserIcon);
+});
+  
+selfhostedScreenClose.addEventListener("click", function() {
+  closeWindow(selfhostedScreen);
+});
+selfhostedIcon.addEventListener("click", function() {
+  handleIconTap(selfhostedIcon);
 });
   
 

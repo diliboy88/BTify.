@@ -34,12 +34,20 @@
                 <p style="margin: 0px; color: #fff;">Devices</p>
             </div>
             <div id="changelogicon" class="app-icon" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content;">
-                <img src="./images/out-of-pocket.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
+                <img src="./images/changelogo.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
                 <p style="margin: 0px; color: #fff;">Changelog</p>
             </div>
             <div id="iframeicon" class="app-icon" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content;">
-                <img src="./images/out-of-pocket.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
-                <p style="margin: 0px; color: #fff;">Iframe</p>
+                <img src="./images/adminlogo.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
+                <p style="margin: 0px; color: #fff;">BTAF</p>
+            </div>
+            <div id="browsericon" class="app-icon" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content;">
+                <img src="./images/browserlogo.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
+                <p style="margin: 0px; color: #fff;">Mini Browser</p>
+            </div>
+            <div id="selfhosticon" class="app-icon" style="text-align: center; padding: 16px; filter: drop-shadow(0 0 8px black); width: fit-content;">
+                <img src="./images/serverhostedlogo.png" style="width: 64px; height: 64px; border-radius: 16px; object-fit: cover;">
+                <p style="margin: 0px; color: #fff;">Self Hosted</p>
             </div>
         </div>
         <!-- Devices Window -->
@@ -66,11 +74,11 @@
                 <p>lowkey give me a minute...</p>
             </div>
         </div> 
-        <!-- iframe1 Window -->
+        <!-- Admin Window -->
         <div class="window" id="iframe" style="top: calc(50% - 90px); left: calc(50% - 180px); display: none;">
             <div class="windowheader" id="iframeheader">
                 <div class="closebutton" id="iframeclose"></div>
-                <p class="headertext">Iframe</p>
+                <p class="headertext">BT Admin Forwarder</p>
                 <div style="width: 16px;"></div>
             </div>
             <div id="iframeContent" style="background-color: #fff; margin: 6px; border-radius: 12px; width: 290px; height: 450px; padding: 16px; overflow-y: scroll; text-align: center;">
@@ -81,9 +89,35 @@
                 <p><strong>Available Options:</strong></p>
                 <ul style="text-align: left; margin: 16px 0;">
                     <li>Device information via the <strong>Devices</strong> app</li>
-                    <li>Direct router access: <a href="http://192.168.1.254" target="_blank">192.168.1.254</a></li>
+                    <li>Direct router access: <a href="https://192.168.1.254/home.htm#advancedPage" target="_blank">Admin Interface Link</a></li>
                 </ul>
                 <p style="font-size: 12px; color: #666;">This is normal behavior - routers protect against iframe attacks.</p>
+            </div>
+        </div> 
+        <!-- Mini Browser Window -->
+        <div class="window" id="browser" style="top: calc(50% - 90px); left: calc(50% - 180px); display: none;">
+            <div class="windowheader" id="browserheader">
+                <div class="closebutton" id="browserclose"></div>
+                <p class="headertext">Mini Browser</p>
+                <div style="width: 16px;"></div>
+            </div>
+            <div id="browserContent" style="background-color: #fff; margin: 6px; border-radius: 12px; width: 290px; height: 450px; padding: 16px; overflow-y: scroll; text-align: center;">
+                <h2>WORK IN PROGRESS</h2>
+                <p style="color: #ff6b6b;">Big things happening..... pls wait</p>
+                <img src="https://fetchpik.com/images/fetchpik.com-BsOTkDxzIY.gif" style="width: 256px; height: auto; border-radius: 12px; object-fit: cover; margin-top: 16px;">
+            </div>
+        </div> 
+        <!-- Self Hosted Window -->
+        <div class="window" id="selfhosted" style="top: calc(50% - 90px); left: calc(50% - 180px); display: none;">
+            <div class="windowheader" id="selfhostedheader">
+                <div class="closebutton" id="selfhostedclose"></div>
+                <p class="headertext">Self Hosted</p>
+                <div style="width: 16px;"></div>
+            </div>
+            <div id="selfhostedContent" style="background-color: #fff; margin: 6px; border-radius: 12px; width: 290px; height: 450px; padding: 16px; overflow-y: scroll; text-align: center;">
+                <h2>WORK IN PROGRESS</h2>
+                <p style="color: #ff6b6b;">Big things happening..... pls wait</p>
+                <img src="https://fetchpik.com/images/fetchpik.com-BsOTkDxzIY.gif" style="width: 256px; height: auto; border-radius: 12px; object-fit: cover; margin-top: 16px;">
             </div>
         </div> 
         <script src="script.js"></script>
