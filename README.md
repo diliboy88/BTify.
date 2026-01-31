@@ -11,6 +11,9 @@ body {
       display: flex;
       justify-content: center;
       width: 50%;
+.content {
+  overflow: auto;
+}
   }
 }
 </style>
