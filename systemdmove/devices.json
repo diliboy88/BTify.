@@ -1,0 +1,22 @@
+[
+  {
+    "PhysAddress": "12:34:56:78:90:AB",
+    "UserHostName": "",
+    "IPAddress": "192.168.1.194",
+    "name": "Example NO1",
+    "Active": true,
+    "ConnectionType": "2.4G",
+    "ParentPhysAddress": "99:99:99:99:99",
+    "ParentName": "Smart Hub 2"
+  },
+  {
+    "PhysAddress": "11:22:33:44:55:66",
+    "UserHostName": "idklol",
+    "IPAddress": "192.168.1.247",
+    "name": "Example NO2",
+    "Active": false,
+    "ConnectionType": "5G",
+    "ParentPhysAddress": "99:99:99:99:99:99",
+    "ParentName": "Smart Hub 2"
+  }
+]
