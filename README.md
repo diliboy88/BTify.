@@ -1,7 +1,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
-  background-color: #4b1c767d;
+  background-color: #2c064f7d;
   background-size: cover;
   height: 100vh;
   font-family: "Ubuntu", Noto Sans, Helvetica, sans-serif ;
