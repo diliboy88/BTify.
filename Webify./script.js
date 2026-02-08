@@ -5,8 +5,8 @@ dragElement(document.getElementById("devices"));
 // Custom Apps
 dragElement(document.getElementById("changelog"));
 dragElement(document.getElementById("iframe"));
-dragElement(document.getElementById("browser"));
-dragElement(document.getElementById("selfhosted"));
+// dragElement(document.getElementById("browser"));
+// dragElement(document.getElementById("selfhosted"));
 
 // Dragging Functionality
 function dragElement(element) {
@@ -80,8 +80,8 @@ addWindowTapHandling(document.querySelector("#welcome"));
 addWindowTapHandling(document.querySelector("#devices"));
 addWindowTapHandling(document.querySelector("#changelog"));
 addWindowTapHandling(document.querySelector("#iframe"));
-addWindowTapHandling(document.querySelector("#browser"));
-addWindowTapHandling(document.querySelector("#selfhosted"));
+// addWindowTapHandling(document.querySelector("#browser"));
+// addWindowTapHandling(document.querySelector("#selfhosted"));
 
 // Allows opening the app 
 function handleIconTap(element) {
