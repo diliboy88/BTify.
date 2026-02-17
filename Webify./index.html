@@ -83,15 +83,27 @@
             </div>
             <div id="iframeContent" style="background-color: #fff; margin: 6px; border-radius: 12px; width: 290px; height: 450px; padding: 16px; overflow-y: scroll; text-align: center;">
                 <h2>Router Interface</h2>
-                <p style="color: #ff6b6b;">⚠️ Cannot embed router interface due to security restrictions</p>
-                <p>The BT Smart Hub blocks iframe embedding for security reasons.</p>
-                <br>
-                <p><strong>Available Options:</strong></p>
-                <ul style="text-align: left; margin: 16px 0;">
-                    <li>Device information via the <strong>Devices</strong> app</li>
-                    <li>Direct router access: <a href="https://192.168.1.254/home.htm#advancedPage" target="_blank">Admin Interface Link</a></li>
+                <ul style="text-align: left; margin: 0px;">
+                    <input type="text" id="routerurl" class="form-field" placeholder="type in router URL">
+                    <button class="expand" onclick="gotourl()">Open Router in New Tab
+		<span class="expand-icon expand-hover">
+			<svg class="first" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 32 32" version="1.1">
+				<path d="M8.489 31.975c-0.271 0-0.549-0.107-0.757-0.316-0.417-0.417-0.417-1.098 0-1.515l14.258-14.264-14.050-14.050c-0.417-0.417-0.417-1.098 0-1.515s1.098-0.417 1.515 0l14.807 14.807c0.417 0.417 0.417 1.098 0 1.515l-15.015 15.022c-0.208 0.208-0.486 0.316-0.757 0.316z" />
+			</svg>
+			<span class="loader"></span>
+			<svg class="second" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
+				<path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 5L8 15l-5-4" />
+			</svg>
+		</span>
+	</button>
                 </ul>
-                <p style="font-size: 12px; color: #666;">This is normal behavior - routers protect against iframe attacks.</p>
+                <p> Or</p>
+                <br>
+                <p>Choose one of these URL'S</p>
+                <p>http://192.168.1.1</p>
+                <p>http://192.168.1.254</p>
+                <p>http://192.168.0.1</p>
+            
             </div>
         </div> 
         <!-- Mini Browser Window 

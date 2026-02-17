@@ -144,7 +144,7 @@ changelogIcon.addEventListener("click", function() {
 
 iframeScreenClose.addEventListener("click", function() {
   closeWindow(iframeScreen);
-});
+})
 iframeIcon.addEventListener("click", function() {
   handleIconTap(iframeIcon);
 });
@@ -163,8 +163,15 @@ iframeIcon.addEventListener("click", function() {
 //   handleIconTap(selfhostedIcon);
 // });
   
-
-
+function gotourl() {
+  // Get text from the input field
+  const targetURL = document.getElementById('routerurl').value;
+  
+  // Redirect the browser to that address
+  if (targetURL) {
+    window.location.href = targetURL;
+  }
+}
 
 
 
@@ -208,4 +215,3 @@ document.addEventListener("DOMContentLoaded", function() {
     </ul>
   `;
 });
-
