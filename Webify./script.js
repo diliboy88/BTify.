@@ -111,12 +111,12 @@ var changelogIcon = document.querySelector("#changelogicon");
 var iframeScreen = document.querySelector("#iframe");
 var iframeScreenClose = document.querySelector("#iframeclose");
 var iframeIcon = document.querySelector("#iframeicon");
-var browserScreen = document.querySelector("#browser");
-var browserScreenClose = document.querySelector("#browserclose");
-var browserIcon = document.querySelector("#browsericon");
-var selfhostedScreen = document.querySelector("#selfhosted");
-var selfhostedScreenClose = document.querySelector("#selfhostedclose");
-var selfhostedIcon = document.querySelector("#selfhosticon");
+// var browserScreen = document.querySelector("#browser");
+// var browserScreenClose = document.querySelector("#browserclose");
+// var browserIcon = document.querySelector("#browsericon");
+// var selfhostedScreen = document.querySelector("#selfhosted");
+// var selfhostedScreenClose = document.querySelector("#selfhostedclose");
+// var selfhostedIcon = document.querySelector("#selfhosticon");
 
 
 
@@ -149,19 +149,19 @@ iframeIcon.addEventListener("click", function() {
   handleIconTap(iframeIcon);
 });
 
-browserScreenClose.addEventListener("click", function() {
-  closeWindow(browserScreen);
-});
-browserIcon.addEventListener("click", function() {
-  handleIconTap(browserIcon);
-});
+// browserScreenClose.addEventListener("click", function() {
+//   closeWindow(browserScreen);
+// });
+// browserIcon.addEventListener("click", function() {
+//   handleIconTap(browserIcon);
+// });
   
-selfhostedScreenClose.addEventListener("click", function() {
-  closeWindow(selfhostedScreen);
-});
-selfhostedIcon.addEventListener("click", function() {
-  handleIconTap(selfhostedIcon);
-});
+// selfhostedScreenClose.addEventListener("click", function() {
+//   closeWindow(selfhostedScreen);
+// });
+// selfhostedIcon.addEventListener("click", function() {
+//   handleIconTap(selfhostedIcon);
+// });
   
 
 
