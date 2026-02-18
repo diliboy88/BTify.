@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
   background-image: url('./Webify./images/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper.jpg');
-  background-color: rgba(255,255,255,0.6);
-  background-blend-mode: lighten;
+  opacity:0.5;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
   color: white;
   height: 100vh;
   font-family: "Ubuntu", Noto Sans, Helvetica, sans-serif ;
