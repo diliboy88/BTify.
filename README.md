@@ -6,25 +6,21 @@ body {
   color: white;
   font-family: "Ubuntu", sans-serif;
   overflow: hidden;
-  position: relative; /* Essential: keeps the background layer contained */
+  position: relative; 
 }
 
-/* This creates the transparent background layer */
+
 body::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 0; left: 0; right: 0; bottom: 0;
   background-image: url('./Webify./images/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.5; /* Change this value (0 to 1) to adjust transparency */
-  z-index: -1;   /* Places it behind your text and images */
+  opacity: 0.4;
+  z-index: -1;   
 }
 
-/* Your specific content styling remains separate */
 img[alt="Bannerr"] { 
   display: flex;
   justify-content: center;
@@ -33,7 +29,7 @@ img[alt="Bannerr"] {
 
 .content {
   overflow: auto;
-  position: relative; /* Ensures content stays above the background */
+  position: relative;
 }
 </style>
 
