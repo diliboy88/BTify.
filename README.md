@@ -3,10 +3,6 @@
 body {
   background-image: url('./Webify./images/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper.jpg');
   position:absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-1;
