@@ -1,35 +1,28 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
-  margin: 0;
-  height: 100vh;
-  color: white;
-  font-family: "Ubuntu", sans-serif;
-  overflow: hidden;
-  position: relative; 
-}
-
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
   background-image: url('./Webify./images/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper.jpg');
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.4;
-  z-index: -1;   
-}
-
-img[alt="Bannerr"] { 
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-
+  z-index:-1;
+  color: white;
+  height: 100vh;
+  font-family: "Ubuntu", Noto Sans, Helvetica, sans-serif ;
+  margin: 0;
+  overflow: hidden;
+img[alt=Bannerr] { 
+    display: flex;
+    justify-content: center;
+    width: 50%;
 .content {
   overflow: auto;
-  position: relative;
+}
+  }
 }
 </style>
 
